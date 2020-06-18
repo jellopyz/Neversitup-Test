@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A93060249BB96800E56539 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9305F249BB96800E56539 /* DashboardTableViewCell.swift */; };
+		C3E234F8249B8AD500F247FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E234F7249B8AD500F247FB /* AppDelegate.swift */; };
+		C3E234FA249B8AD500F247FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E234F9249B8AD500F247FB /* SceneDelegate.swift */; };
+		C3E234FF249B8AD500F247FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E234FD249B8AD500F247FB /* Main.storyboard */; };
+		C3E23501249B8AD600F247FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E23500249B8AD600F247FB /* Assets.xcassets */; };
+		C3E23504249B8AD600F247FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E23502249B8AD600F247FB /* LaunchScreen.storyboard */; };
+		C3E2350C249B8EC200F247FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E2350B249B8EC200F247FB /* LoginViewController.swift */; };
+		C3E2350E249B8ED700F247FB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E2350D249B8ED700F247FB /* DashboardViewController.swift */; };
+		C3E23510249B8EE700F247FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E2350F249B8EE700F247FB /* DetailViewController.swift */; };
+		DC37882251CEFCCB868F304A /* Pods_NeversitupTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF31103095534D758CC96EE0 /* Pods_NeversitupTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FA827A7DFE6D43CC571F0C3 /* Pods-NeversitupTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeversitupTest.debug.xcconfig"; path = "Target Support Files/Pods-NeversitupTest/Pods-NeversitupTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB29F5BC81FCD907F31E7C3 /* Pods-NeversitupTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeversitupTest.release.xcconfig"; path = "Target Support Files/Pods-NeversitupTest/Pods-NeversitupTest.release.xcconfig"; sourceTree = "<group>"; };
+		BF31103095534D758CC96EE0 /* Pods_NeversitupTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeversitupTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C398BEC1249B9C5600020E16 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A9305F249BB96800E56539 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		C3E234F4249B8AD500F247FB /* NeversitupTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeversitupTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E234F7249B8AD500F247FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3E234F9249B8AD500F247FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3E234FE249B8AD500F247FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3E23500249B8AD600F247FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3E23503249B8AD600F247FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3E23505249B8AD600F247FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E2350B249B8EC200F247FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C3E2350D249B8ED700F247FB /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C3E2350F249B8EE700F247FB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E234F1249B8AD500F247FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37882251CEFCCB868F304A /* Pods_NeversitupTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F061441694B164BC2C8899A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C398BEC1249B9C5600020E16 /* Alamofire.framework */,
+				BF31103095534D758CC96EE0 /* Pods_NeversitupTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		739C72947B635C35C998DDC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FA827A7DFE6D43CC571F0C3 /* Pods-NeversitupTest.debug.xcconfig */,
+				6BB29F5BC81FCD907F31E7C3 /* Pods-NeversitupTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3E234EB249B8AD500F247FB = {
+			isa = PBXGroup;
+			children = (
+				C3E234F6249B8AD500F247FB /* NeversitupTest */,
+				C3E234F5249B8AD500F247FB /* Products */,
+				739C72947B635C35C998DDC3 /* Pods */,
+				6F061441694B164BC2C8899A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E234F5249B8AD500F247FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E234F4249B8AD500F247FB /* NeversitupTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E234F6249B8AD500F247FB /* NeversitupTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3E234F7249B8AD500F247FB /* AppDelegate.swift */,
+				C3E234F9249B8AD500F247FB /* SceneDelegate.swift */,
+				C3E234FD249B8AD500F247FB /* Main.storyboard */,
+				C3A9305F249BB96800E56539 /* DashboardTableViewCell.swift */,
+				C3E2350B249B8EC200F247FB /* LoginViewController.swift */,
+				C3E2350D249B8ED700F247FB /* DashboardViewController.swift */,
+				C3E2350F249B8EE700F247FB /* DetailViewController.swift */,
+				C3E23500249B8AD600F247FB /* Assets.xcassets */,
+				C3E23502249B8AD600F247FB /* LaunchScreen.storyboard */,
+				C3E23505249B8AD600F247FB /* Info.plist */,
+			);
+			path = NeversitupTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E234F3249B8AD500F247FB /* NeversitupTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E23508249B8AD600F247FB /* Build configuration list for PBXNativeTarget "NeversitupTest" */;
+			buildPhases = (
+				B31088102346A79F8ECA3D41 /* [CP] Check Pods Manifest.lock */,
+				C3E234F0249B8AD500F247FB /* Sources */,
+				C3E234F1249B8AD500F247FB /* Frameworks */,
+				C3E234F2249B8AD500F247FB /* Resources */,
+				EF0501678E4E36A81D866591 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeversitupTest;
+			productName = NeversitupTest;
+			productReference = C3E234F4249B8AD500F247FB /* NeversitupTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E234EC249B8AD500F247FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = GAS;
+				TargetAttributes = {
+					C3E234F3249B8AD500F247FB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C3E234EF249B8AD500F247FB /* Build configuration list for PBXProject "NeversitupTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E234EB249B8AD500F247FB;
+			productRefGroup = C3E234F5249B8AD500F247FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E234F3249B8AD500F247FB /* NeversitupTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E234F2249B8AD500F247FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E23504249B8AD600F247FB /* LaunchScreen.storyboard in Resources */,
+				C3E23501249B8AD600F247FB /* Assets.xcassets in Resources */,
+				C3E234FF249B8AD500F247FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B31088102346A79F8ECA3D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeversitupTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF0501678E4E36A81D866591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeversitupTest/Pods-NeversitupTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeversitupTest/Pods-NeversitupTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeversitupTest/Pods-NeversitupTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E234F0249B8AD500F247FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A93060249BB96800E56539 /* DashboardTableViewCell.swift in Sources */,
+				C3E2350C249B8EC200F247FB /* LoginViewController.swift in Sources */,
+				C3E234F8249B8AD500F247FB /* AppDelegate.swift in Sources */,
+				C3E23510249B8EE700F247FB /* DetailViewController.swift in Sources */,
+				C3E234FA249B8AD500F247FB /* SceneDelegate.swift in Sources */,
+				C3E2350E249B8ED700F247FB /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3E234FD249B8AD500F247FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E234FE249B8AD500F247FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3E23502249B8AD600F247FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E23503249B8AD600F247FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E23506249B8AD600F247FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3E23507249B8AD600F247FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E23509249B8AD600F247FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA827A7DFE6D43CC571F0C3 /* Pods-NeversitupTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeversitupTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gas.NeversitupTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E2350A249B8AD600F247FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB29F5BC81FCD907F31E7C3 /* Pods-NeversitupTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeversitupTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gas.NeversitupTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E234EF249B8AD500F247FB /* Build configuration list for PBXProject "NeversitupTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E23506249B8AD600F247FB /* Debug */,
+				C3E23507249B8AD600F247FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E23508249B8AD600F247FB /* Build configuration list for PBXNativeTarget "NeversitupTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E23509249B8AD600F247FB /* Debug */,
+				C3E2350A249B8AD600F247FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E234EC249B8AD500F247FB /* Project object */;
+}
